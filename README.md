@@ -99,7 +99,7 @@ Edit your Podfile and add RETableViewManager:
 
 ``` bash
 platform :ios, '6.0'
-pod 'RETableViewManager', '~> 1.1.1'
+pod 'RETableViewManager', '~> 1.1.2'
 ```
 
 Install into your Xcode project:
@@ -457,7 +457,7 @@ Quick example:
 
 ### Styling
 
-It's super easy to customize different offsets, cell background images, etc. of
+It's super easy to customize different offsets and cell background images of
 the entire `UITableView` (or any particular section) with `RETableViewManager`.
 
 `RETableViewManager` and `RETableViewSection` both have the `style` property (an instance of the `RETableViewCellStyle` class).
